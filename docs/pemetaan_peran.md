@@ -15,6 +15,8 @@ No | Kebutuhan pemilik Batik Kinanthi | Peran utama | Alasan singkat | Tahap lif
 (b) risiko satu orang merangkap tiga peran di UMKM dan bagian yang sebaiknya diotomatisasi lebih dulu
 
 Jawaban:
-(a)
-
-(b)
+(a) Kebutuhan 3, yaitu prediksi kebutuhan stok kain bulan depan, bergantung pada kebutuhan 1, yaitu pengumpulan data penjualan dari toko, web dan marketplace ke satu tempat. Data penjualan yang terpadu dan konsisten agar memerlukan prediksi dapat digambarkan permintaan secara lebih lengkap. Jika data belum terkumpul, maka prediksi berisiko data tidak akurat karena sebagian transaksi tidak dapat diperhitungkan.
+Kebutuhan 6, yaitu rekomendasi produk untuk pelanggan di situs web, bergantung pada kebutuhan 4, karena memastikan tabel pelanggan tidak memiliki data yang duplikat/ganda. Jadi, pembersihan data duplikat dapat membantu sistem dalam riwayat pembelian dengan pelanggan yang tetap. Tanpa proses ini, riwayat pelanggam bisa terpecahkan dan rekomendasi yang dihasilkan kurang relevan.
+Dengan seperti ini, maka kebutuhan 1 dan 4 itu perlu diprioritaskan sebagai fondasi data sebelum melanjutkan ke kebutuhan ke 3 dan 6 diterapkan secara handal.
+(b) Pada UMKM, keterbatasan tenaga kerja memungkinkan satu orang merangkap sebagai Data Engineer, Data Science, dan Data Analyst. Risiko yang muncul meliputi beban kerja berlebihan, kesalahan pengolahan data, kurangnya pemeriksaan independen, ketergantungan pada satu orang, serta berkurangnya waktu untuk melakukan analisis bisnis.
+Bagian yang sebaiknya diotomatisasi terlebih dahulu adalah pengumpulan dan integrasi data penjualan dari berbagai kanal, dilanjutkan dengan pemeriksaan kualitas data. Setelah itu, transformasi data dan pembaruan dashboard omzet dapat diotomatisasi. Prediksi stok dan rekomendasi produk dilakukan setelah data yang diperlukan tersedia dan cukup berkualitas.
